@@ -1,0 +1,324 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+div#top-bar {
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+}
+div#top-bar li.html.custom.html_topbar_right {
+    font-size: 20px;
+}
+div#top-bar li.html.custom.html_topbar_right a {
+    color: #e4ff00;
+}
+div#top-bar a.hotline-top i {
+    padding-right: 6px;
+}
+
+div#masthead {
+    background: #fff;
+}
+div#masthead ul li.menu-item a.nav-top-link {
+    color: #4fc243;
+    font-size: 15px;
+    padding: 0 15px;
+}
+main#main {
+    background-color: #f7f9fb;
+}
+
+/* css hiệu ứng khách hàng đặt xe */
+.box_marquee_slider {
+    padding: 10px;
+    background: #fff;
+    font-size: 17px;
+    border-radius: 8px;
+    display: inline-block;
+    overflow: hidden;
+    height: 130px;
+}
+ul.box_datxe {
+	top: 7em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+}
+.box_datxe>li {
+    margin-left: 0px!important;
+    margin-bottom: 0px;
+    list-style: none;
+    border-bottom: 1px dashed #737373;
+    font-size: 14px;
+    padding: 10px 0px;
+    transition: background-color 0.5s;
+    position: relative;
+    width: 100%;
+    float: left;
+    overflow: visible!important;
+}
+.box_datxe li span, .box_datxe li b {
+	color: #5bc641;
+}
+@keyframes marquee {
+    0%   { top:   4em }
+    100% { top: -11em }
+}
+
+/* css section dịch vụ */
+.title-dichvu h2 {
+    text-align: center;
+    color: #5bc641;
+}
+.box-dichvu {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 6px 2px;
+    border-radius: 6px;
+    background: #fff;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+.box-dichvu:hover {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 8px 0px, rgb(60 64 67 / 15%) 0px 0px 5px 1px;
+}
+.box-dichvu .icon-box-img {
+    margin-bottom: 8px;
+}
+.box-dichvu p {
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+.dichvu-gia>.col-inner {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 6px 2px;
+    border-radius: 10px;
+    background: #fff;
+}
+.dichvu-gia>.col-inner h4 {
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 11px 10px 0 0;
+    color: #ffff;
+}
+.dichvu-gia>.col-inner ul {
+    padding: 20px;
+}
+.dichvu-gia>.col-inner ul li {
+    color: #000;
+}
+
+/* css section tour */
+.title-tour {
+    text-align: center;
+}
+.title-tour h3 {
+    font-size: 22px;
+    color: #000;
+}
+.title-tour p {
+    color: #000;
+}
+.box-tour {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 6px 2px;
+    border-radius: 10px;
+    background: #fff;
+    padding-bottom: 10px;
+}
+.box-tour .icon-box-img {
+    border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+.box-tour .icon-box-img img {
+    padding: 0;
+}
+.box-tour h4 {
+    text-align: center;
+    color: #12a8e1;
+    font-size: 18px;
+}
+.box-tour p {
+    color: #000;
+    margin-bottom: 0;
+    padding: 0 8px 0 12px;
+	text-align: left;
+}
+.box-tour p strong {
+    color: red;
+}
+.box-tour .icon-box-text {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.box-tour .icon-box-text::-webkit-scrollbar {
+    width: 4px;
+}
+.box-tour .icon-box-text::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #12a9e2;
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+}
+
+/* css form */
+.col.col-padding {
+    padding-bottom: 0;
+}
+.formdatxe {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+}
+.formdatxe .col.col-padding {
+    padding-bottom: 1px;
+}
+.formdatxe h4 {
+    text-align: center;
+    color: #61c73f;
+}
+.formdatxe input.wpcf7-form-control.wpcf7-text, .formdatxe select {
+    border-radius: 5px;
+	height: 32px;
+    margin-bottom: 10px;
+    box-shadow: 0 0;
+	padding-left: 30px;
+    font-size: 14px;
+}
+.formdatxe i {
+    position: absolute;
+    bottom: 18px;
+    left: 23px;
+    z-index: 9;
+    font-size: 14px;
+	top: 10px;
+}
+i.fas.fa-street-view, i.fas.fa-phone-square-alt {
+    color: #56c441;
+}
+i.fas.fa-user, i.fas.fa-map-marker-alt {
+    color: red;
+}
+i.fas.fa-car, i.fas.fa-calendar-alt {
+    color: #0a5ec7;
+}
+
+.formdatxe input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    padding: 0 20px 1px 20px;
+    text-transform: inherit;
+    min-height: 34px;
+    line-height: 11px;
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+    border-radius: 24px;
+    margin-left: -22px;
+    position: absolute;
+    margin-top: 5px;
+}
+.formdatxe .btn-datxe {
+    text-align: center;
+}
+.btn-click {
+    text-align: center;
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+    color: #fff;
+    border-radius: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.wpcf7 form.invalid .wpcf7-response-output , .wpcf7-response-output, .wpcf7 form.failed .wpcf7-response-output {
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+    color: #fff;
+    border-color: #61c73f;
+}
+
+/* css đội xe */
+.col.col-doixe {
+    background: #fff;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 6px 2px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.col.col-doixe h2 {
+    margin-bottom: 0;
+}
+
+/* css section đánh giá */
+.title-khachhang h2 {
+    color: #5bc641;
+    font-size: 38.5px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    text-shadow: rgb(0 0 0) 1px 1px 1px;
+}
+
+
+/* css footer */
+.footer-widgets.footer.footer-1 {
+    /* background-image: linear-gradient(90deg,#61c73f,#29b94c); */
+    background-color: #292929;
+}
+.ct-foo p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.ct-foo ul li {
+    margin-left: 0;
+    margin-bottom: 12px;
+    line-height: 20px;
+}
+.ct-foo h4 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+.ct-foo h4:after {content: '';
+    position: absolute;
+    left: 0;
+    top: 33px;
+    border: 2px solid #ff8a00;
+    z-index: 1;
+    width: 30%;
+}
+.absolute-footer.dark.medium-text-center.small-text-center {
+    background-image: linear-gradient(90deg,#61c73f,#29b94c);
+}
+.copyright-footer {
+    color: #fff;
+}
+
+@media (max-width: 549px) {
+	/* 	css col tour */
+	.col.col-tour {
+		padding: 6px 5px;
+	}
+	.box-tour p {
+		font-size: 15px;
+	}
+	/* 	css form */
+	span.wpcf7-list-item.first {
+		margin-right: 6px;
+	}
+	input[type=checkbox] {
+		margin-right: 2px;
+	}
+	.col.col-daochieu {
+		padding-right: 0;
+	}
+	.btn-click {
+		text-align: right;
+		padding-right: 10px;
+	}
+	
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
